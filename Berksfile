@@ -1,7 +1,4 @@
-source "https://api.berkshelf.com"
+source 'https://supermarket.chef.io'
+source 'https://berks.evertrue.com'
 
 metadata
-
-cookbook 'chefgithook', git: 'git@github.com:evertrue/chefgithook-cookbook.git', tag: 'v1.0.3'
-
-# cookbook 'chefgithook', path: '../chefgithook'

@@ -6,4 +6,4 @@ description      'Wrapper cookbook for chefgithook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '2.0.1'
 
-depends 'chefgithook', '= 2.1.0'
+depends 'chefgithook', '= 2.1.1'

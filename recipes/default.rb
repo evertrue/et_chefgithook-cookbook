@@ -7,4 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "chefgithook"
+secret = data_bag_item('secrets', 'api_keys')['chefhook']['webhook']['secret']
+node.set['chefgithook']['secret'] = secret
+
+include_recipe 'chefgithook'

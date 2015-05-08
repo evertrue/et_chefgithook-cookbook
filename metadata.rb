@@ -4,6 +4,6 @@ maintainer_email 'eric.herot@evertrue.com'
 license          'All rights reserved'
 description      'Wrapper cookbook for chefgithook'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '2.0.3'
+version          '2.0.4'
 
 depends 'chefgithook', '~> 2.2'
